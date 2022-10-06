@@ -81,7 +81,15 @@ if (totalShoppingCart < 50) {
 
 console.log("\n------------------------EXERCISE 7-------------------------");
 
-/* WRITE YOUR ANSWER HERE */
+totalShoppingCart = 60;
+let discount = (totalShoppingCart / 100) * 20;
+if (totalShoppingCart < 50) {
+  finalTotal = totalShoppingCart - discount + 10;
+  console.log(`Amount to pay plus shipping is £${finalTotal}`);
+} else if (totalShoppingCart > 50) {
+  finalTotal = totalShoppingCart - discount;
+  console.log(`Amount to pay with free shipping is £${finalTotal}`);
+}
 
 /* EXERCISE 8
  Create a variable and assign to it an object representing a car, with properties like brand, model and licensePlate.
