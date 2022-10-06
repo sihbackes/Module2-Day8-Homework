@@ -154,7 +154,10 @@ console.log(carsForRent);
 
 console.log("\n------------------------EXERCISE 11-------------------------");
 
-/* WRITE YOUR ANSWER HERE */
+console.log(typeof cars);
+console.log(typeof cars.brand);
+console.log(typeof cars.model);
+console.log(typeof cars.licensePlate);
 
 /* EXERCISE 12
  Create a new variable called carsForSale assigning to it an empty array, and then insert 3 cars into it.
